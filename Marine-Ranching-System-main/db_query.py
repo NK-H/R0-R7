@@ -1,6 +1,6 @@
 import pymysql
 from config import config
-
+// R3
 def db_query(sql, values=None):
     conn = pymysql.connect(host="127.0.0.1", port=3306, user='root', password=config['MYSQL_PASSWORD'], db=config['DATABASE_NAME'],
                            charset='utf8')

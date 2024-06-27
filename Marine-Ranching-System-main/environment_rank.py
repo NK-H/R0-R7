@@ -7,7 +7,7 @@ def total_rank(data):
     total_rank.append(N_rank((data['总氮'])))
     return total_rank
 
-
+// R3
 
 def PH_rank(data):
     if data < 6 or data > 9:
